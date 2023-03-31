@@ -18,6 +18,8 @@ fetch(url)
 
     document.getElementById('latitude').innerHTML += latitude
     document.getElementById('longitude').innerHTML += longitude
+    document.getElementById('cidade').innerHTML += city
+    document.getElementById('região').innerHTML += region
   })
   .catch(error => console.error(error));
   
